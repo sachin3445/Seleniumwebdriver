@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-20T17:52:28 IST" name="Default suite" finished-at="2025-05-20T17:52:42 IST" duration-ms="13886">
+    <groups>
+    </groups>
+    <test started-at="2025-05-20T17:52:28 IST" name="Default test" finished-at="2025-05-20T17:52:42 IST" duration-ms="13886">
+      <class name="UsingTestNg.OrangeHrmLogin">
+        <test-method signature="open()[pri:1, instance:UsingTestNg.OrangeHrmLogin@206a70ef]" started-at="2025-05-20T17:52:28 IST" name="open" finished-at="2025-05-20T17:52:35 IST" duration-ms="6928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="displaylogo()[pri:2, instance:UsingTestNg.OrangeHrmLogin@206a70ef]" started-at="2025-05-20T17:52:35 IST" name="displaylogo" finished-at="2025-05-20T17:52:40 IST" duration-ms="5109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaylogo -->
+        <test-method signature="login()[pri:3, instance:UsingTestNg.OrangeHrmLogin@206a70ef]" started-at="2025-05-20T17:52:40 IST" name="login" finished-at="2025-05-20T17:52:42 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="close()[pri:4, instance:UsingTestNg.OrangeHrmLogin@206a70ef]" started-at="2025-05-20T17:52:42 IST" name="close" finished-at="2025-05-20T17:52:42 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- UsingTestNg.OrangeHrmLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
