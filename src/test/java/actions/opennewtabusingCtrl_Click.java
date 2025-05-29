@@ -1,6 +1,5 @@
 package actions;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class opennewtabusingCtrl_Click {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -26,12 +25,12 @@ public class opennewtabusingCtrl_Click {
 		
 		//Switching to tabs
 		
-		List <String> ids = new  ArrayList (driver.getWindowHandles());
+		List <String> ids = new  ArrayList<String> (driver.getWindowHandles());
 		driver.switchTo().window(ids.get(1));
 			
 		driver.findElement(By.xpath("//h2[normalize-space()='Software']")).getText();
-		
-		
+		Thread.sleep(3000);
+		driver.switchTo().window(ids.get(0));
 		
 		
 		
